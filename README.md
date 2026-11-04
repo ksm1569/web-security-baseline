@@ -36,12 +36,15 @@ OWASP Top 10이나 ASVS의 요약·번역본이 아니다.\
 
 | 분류 | 범위 |
 | --- | --- |
-| [프론트엔드](checklist/frontend.md) | 브라우저에서 실행되는 코드와 빌드 산출물 |
-| [백엔드](checklist/backend.md) | 서버에서 실행되는 코드. 서버 템플릿 렌더링 포함 |
-| [DB](checklist/database.md) | DB 계정·권한과 데이터 저장 방식 |
-| [인프라](checklist/infra.md) | OS·WAS·웹서버·클라우드 리소스 설정 |
-| [네트워크](checklist/network.md) | 전송 구간 암호화와 접근 경계 |
-| [공통](checklist/common.md) | 설정 위치가 프로젝트마다 다르거나 개발·배포 과정 전반에 걸친 것 |
+| [프론트엔드](checklist/frontend/) | 브라우저에서 실행되는 코드와 빌드 산출물 |
+| [백엔드](checklist/backend/) | 서버에서 실행되는 코드. 서버 템플릿 렌더링 포함 |
+| [DB](checklist/database/) | DB 계정·권한과 데이터 저장 방식 |
+| [인프라](checklist/infra/) | OS·WAS·웹서버·클라우드 리소스 설정 |
+| [네트워크](checklist/network/) | 전송 구간 암호화와 접근 경계 |
+| [공통](checklist/common/) | 설정 위치가 프로젝트마다 다르거나 개발·배포 과정 전반에 걸친 것 |
+
+분류 폴더를 열면 항목 목록이 나온다.\
+항목은 `BE-OUT-01.md`처럼 ID마다 파일 하나로 둔다.
 
 여러 레이어에 걸친 주제는 레이어별 항목으로 나눴다.\
 파일 업로드라면 백엔드에서 확장자·크기·파일명 검사를, 인프라에서 저장 위치의 스크립트 실행 차단을 따로 점검한다.\
